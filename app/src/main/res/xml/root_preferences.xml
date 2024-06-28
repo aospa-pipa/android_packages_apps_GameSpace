@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2021 Chaldeaprjkt
-     Copyright (C) 2022-2024 crDroid Android Project
+                   2022 crDroid Android Project
+                   2023 risingOS Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -27,7 +28,7 @@
         android:key="in_game_preferences"
         android:title="@string/in_game_preferences_title">
 
-        <SwitchPreferenceCompat
+        <SwitchPreference
             android:defaultValue="true"
             android:key="gamespace_danmaku_notification_mode"
             android:summary="@string/danmaku_notification_mode_summary"
@@ -55,26 +56,26 @@
             android:summary="@string/suppress_fullscreen_intent_summary"
             android:title="@string/suppress_fullscreen_intent_title" />
 
-        <SwitchPreferenceCompat
+        <SwitchPreference
             android:defaultValue="false"
             android:key="gamespace_stay_awake"
             android:title="@string/stay_awake_title" />
 
-        <SwitchPreferenceCompat
+        <SwitchPreference
             android:defaultValue="false"
             android:key="gamespace_lock_gesture"
             android:title="@string/lock_gesture_title" />
 
-        <SwitchPreferenceCompat
+        <SwitchPreference
             android:key="gamespace_auto_brightness_disabled"
             android:title="@string/auto_brightness_disabled_title" />
 
-        <SwitchPreferenceCompat
+        <SwitchPreference
             android:defaultValue="false"
             android:key="gamespace_tfgesture_disabled"
             android:title="@string/three_screenshot_disabled_title" />
 
-        <SwitchPreferenceCompat
+        <SwitchPreference
             android:defaultValue="false"
             android:key="gamespace_adb_disabled"
             android:title="@string/adb_disabled_title" />
