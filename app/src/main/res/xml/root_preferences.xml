@@ -50,6 +50,7 @@
             android:title="@string/ringer_mode_title" />
 
         <co.aospa.framework.preference.SystemSettingSwitchPreference
+            android:defaultValue="false"
             android:key="gamespace_suppress_fullscreen_intent"
             android:summary="@string/suppress_fullscreen_intent_summary"
             android:title="@string/suppress_fullscreen_intent_title" />
